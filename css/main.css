@@ -7,7 +7,6 @@ body {
     }
 
 .header {
-    position: absolute;
     width: 1230px;
     height: 26px;
     left: 107px;
@@ -99,6 +98,7 @@ body {
     height: 16px;
     left: 1278px;
     top: 36px;
+   
     
     /* nav */
     
@@ -112,6 +112,17 @@ body {
     
     color: #1C1D21;
 }
+
+.rectangle8 {
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    
+    background: #D9DCD7;
+}
+
 
 html {
 
