@@ -27,8 +27,6 @@ body {
     font-size: 24px;
     line-height: 109.5%;
     /* or 26px */
-    
-    
     color: #1C1D21;
 }
 
@@ -38,17 +36,13 @@ body {
     height: 16px;
     left: 928px;
     top: 38px;
-    
     /* nav */
-    
     font-family: Messina Sans Trial;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 89.5%;
     /* or 16px */
-    
-    
     color: #1C1D21;
 }
 
@@ -58,17 +52,13 @@ body {
     height: 16px;
     left: 1004px;
     top: 36px;
-    
     /* nav */
-    
     font-family: Messina Sans Trial;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 89.5%;
     /* or 16px */
-    
-    
     color: #1C1D21;
 }
 
@@ -78,17 +68,13 @@ body {
     height: 16px;
     left: 1101px;
     top: 36px;
-    
     /* nav */
-    
     font-family: Messina Sans Trial;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 89.5%;
     /* or 16px */
-    
-    
     color: #1C1D21;
 }
 
@@ -98,18 +84,13 @@ body {
     height: 16px;
     left: 1278px;
     top: 36px;
-   
-    
     /* nav */
-    
     font-family: Messina Sans Trial;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 89.5%;
     /* or 16px */
-    
-    
     color: #1C1D21;
 }
 
@@ -119,10 +100,17 @@ body {
     height: 900px;
     left: 0px;
     top: 0px;
-    
     background: #D9DCD7;
 }
 
+.rectangle8__mainpic {
+    position: absolute;
+    width: 609px;
+    height: 436px;
+    left: 728px;
+    top: 284px;
+    border-radius: 8px;
+}
 
 html {
 
