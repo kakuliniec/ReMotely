@@ -103,6 +103,22 @@ body {
     background: #D9DCD7;
 }
 
+.rectangle8__description {
+position: absolute;
+width: 605px;
+height: 267px;
+left: 123px;
+top: 453px;
+
+font-family: Messina Sans Trial;
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+line-height: 96.5%;
+/* or 93px */
+color: #1C1D21;
+}
+
 .rectangle8__mainpic {
     position: absolute;
     width: 609px;
