@@ -1,0 +1,87 @@
+.header {
+  width: 1230px;
+  height: 26px;
+  left: 107px;
+  top: 32px;
+  color: #1C1D21;
+
+  &__about {
+    position: absolute;
+    width: 53px;
+    height: 16px;
+    left: 1101px;
+    top: 36px;
+    /* nav */
+    font-family: Messina Sans Trial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 89.5%;
+    /* or 16px */
+    color: #1C1D21;
+  }
+
+  &__book {
+    position: absolute;
+    width: 44px;
+    height: 16px;
+    left: 928px;
+    top: 38px;
+    /* nav */
+    font-family: Messina Sans Trial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 89.5%;
+    /* or 16px */
+    color: #1C1D21;
+  }
+
+  &__explore {
+    position: absolute;
+    width: 65px;
+    height: 16px;
+    left: 1004px;
+    top: 36px;
+    /* nav */
+    font-family: Messina Sans Trial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 89.5%;
+    /* or 16px */
+    color: #1C1D21;
+  }
+  
+  &__remotely {
+  position: absolute;
+  width: 107px;
+  height: 26px;
+  left: 107px;
+  top: 32px;
+  
+  font-family: Messina Sans Trial;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 109.5%;
+  /* or 26px */
+  color: #1C1D21;
+}
+
+&__signin {
+  position: absolute;
+  width: 59px;
+  height: 16px;
+  left: 1278px;
+  top: 36px;
+  /* nav */
+  font-family: Messina Sans Trial;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 89.5%;
+  /* or 16px */
+  color: #1C1D21;
+}
+}
