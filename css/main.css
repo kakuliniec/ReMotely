@@ -171,9 +171,16 @@ body {
     line-height: 119.5%;
     /* or 43px */
     text-align: center;
-    font-variant: small-caps;
     /* deep dark */
     color: #1C1D21;
+}
+
+.welcome2 {
+    position: absolute;
+    width: 1232px;
+    height: 504px;
+    left: 104px;
+    top: 1162px;
 }
 
 
