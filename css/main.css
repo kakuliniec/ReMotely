@@ -108,7 +108,7 @@ position: absolute;
 width: 605px;
 height: 267px;
 left: 123px;
-top: 453px;
+bottom: 180px;
 
 font-family: Messina Sans Trial;
 font-style: normal;
@@ -151,7 +151,7 @@ color: #1C1D21;
     width: 609px;
     height: 436px;
     left: 728px;
-    top: 284px;
+    bottom: 180px;
     border-radius: 8px;
 }
 
