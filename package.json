@@ -1,0 +1,27 @@
+{
+  "name": "remotely",
+  "version": "1.0.0",
+  "description": "Project based on Figma",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kakuliniec/ReMotely.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kakuliniec/ReMotely/issues"
+  },
+  "homepage": "https://github.com/kakuliniec/ReMotely#readme",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
