@@ -183,6 +183,41 @@ body {
     top: 1162px;
 }
 
+.welcome2__pic1 {
+    position: absolute;
+    width: 400px;
+    height: 504px;
+    left: 104px;
+    top: 1162px;
+    background: #F7F4F4;
+    border-radius: 8px;
+}
+
+.welcome2__pic1_img {
+    position: absolute;
+    width: 400px;
+    height: 324px;
+    left: 104px;
+    top: 1162px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.welcome2__pic1_header {
+    position: absolute;
+    width: 99px;
+    height: 17px;
+    left: 261px;
+    top: 1518px;
+    /* header card */
+    font-family: Messina Sans Trial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 96.5%;
+    /* or 17px */
+    /* deep dark */
+    color: #1C1D21;
+}
 
 html {
 
