@@ -193,10 +193,13 @@ body {
 }
 
 .welcome2__pic1_img {
+    position: absolute;
     width: 400px;
     height: 324px;
-    left: 104px;
-    top: 1162px;
+    left: 0px;
+    top: 0px;
+    bottom: 180px;
+    right: 832px;
     border-radius: 8px 8px 0px 0px;
 }
 
@@ -206,6 +209,7 @@ body {
     left: 157px;
     right: 144px;
     top: 356px;
+    bottom: 131px;
     /* header card */
     font-family: Messina Sans Trial;
     font-style: normal;
@@ -220,12 +224,12 @@ body {
 }
 
 .welcome2__pic1_description {
+    position: absolute;
     width: 308px;
     height: 75px;
     left: 46px;
-    right: 46px;
-    bottom: 32px;
     top: 397px;
+    bottom: 32px;
     /* card text */
     font-family: Messina Sans Trial;
     font-style: normal;
@@ -234,23 +238,27 @@ body {
     line-height: 150%;
     /* or 24px */
     text-align: center;
-    position: absolute;
+    /* card text */
+    color: rgba(0, 0, 0, 0.46);
 }
 
 .welcome2__pic2 {
     width: 400px;
     height: 504px;
-    left: 520px;
-    top: 1162px;
+    left: 416px;
+    right: 416px;
+    top: 0px;
+    bottom: 180px;
     background: #F7F4F4;
     border-radius: 8px;
 }
 
 .welcome2__pic2_img {
+    position: absolute;
     width: 400px;
     height: 324px;
     left: 416px;
-    top: 1162px;
+    top: 0px;
     right: 832px;
     border-radius: 8px 8px 0px 0px;
 }
@@ -259,9 +267,10 @@ body {
     position: absolute;
     width: 99px;
     height: 17px;
-    left: 150px;
+    left: 566px;
     right: 151px;
     top: 356px;
+    bottom: 131px;
     /* header card */
     font-family: Messina Sans Trial;
     font-style: normal;
@@ -274,7 +283,40 @@ body {
 }
 
 .welcome2__pic2_description {
+    position: absolute;
+    width: 308px;
+    height: 62px;
+    left: 462px;
+    top: 397px;
+    bottom: 45px;
+    /* card text */
+    font-family: Messina Sans Trial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    text-align: center;
+    /* card text */
+    color: rgba(0, 0, 0, 0.46);
+    }
 
+
+
+.welcome2__pic3 {
+
+}
+
+.welcome2__pic3_img {
+
+}
+
+.welcome2__pic3_header {
+
+}
+
+.welcome2__pic3_description {
+    
 }
 
 html {
