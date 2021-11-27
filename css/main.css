@@ -119,6 +119,17 @@ line-height: 96.5%;
 color: #1C1D21;
 }
 
+.rectangle8__button {
+position: absolute;
+width: 149px;
+height: 48px;
+left: 105px;
+top: 768px;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 33px;
+}
+
 .rectangle8__mainpic {
     position: absolute;
     width: 609px;
