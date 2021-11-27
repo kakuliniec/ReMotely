@@ -118,8 +118,8 @@ body {
     position: absolute;
     width: 85px;
     height: 26px;
-    left: 137px;
-    top: 779px;
+    left: 32px;
+    top: 11px;
     font-family: Messina Sans Trial;
     font-style: normal;
     font-weight: normal;
@@ -127,6 +127,8 @@ body {
     line-height: 109.5%;
     /* or 26px */
     color: #1C1D21;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .rectangle8__description {
@@ -141,6 +143,8 @@ body {
     font-weight: normal;
     font-size: 96px;
     line-height: 96.5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
     /* or 93px */
     color: #1C1D21;
     }
@@ -150,7 +154,7 @@ body {
     width: 609px;
     height: 436px;
     left: 728px;
-    bottom: 180px;
+    top: 284px;
     border-radius: 8px;
 }
 
