@@ -158,6 +158,25 @@ body {
     border-radius: 8px;
 }
 
+.offer {
+    position: absolute;
+    width: 1212px;
+    height: 86px;
+    left: 114px;
+    top: 990px;
+    font-family: Messina Sans Trial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 119.5%;
+    /* or 43px */
+    text-align: center;
+    font-variant: small-caps;
+    /* deep dark */
+    color: #1C1D21;
+}
+
+
 html {
 
 }
