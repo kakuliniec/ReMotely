@@ -9,7 +9,7 @@
 * Visial Studio Code
 ...
 
-To run use:
+To run:
 1. Npm install
 2. Npm start
 
