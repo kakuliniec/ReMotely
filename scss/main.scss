@@ -1,6 +1,5 @@
 @import "_normalize";
 @import "_variables";
-@import "/font\ Messina/";
 @import "/scss/modules/mainpage.scss";
 @import "/scss/modules/header.scss";
 @import "/scss/modules/offer.scss";
@@ -10,13 +9,8 @@ body {
     position: relative;
     width: 1440px;
     height: 3792px;
-    background: #F1F1F1;
-    
+    background: #f1f1f1;
 }
-
 
 html {
-
 }
-
-

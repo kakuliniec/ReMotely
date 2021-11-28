@@ -13,57 +13,57 @@
     height: 504px;
     left: 104px;
     top: 1162px;
-    background: #F7F4F4;
+    background: #f7f4f4;
     border-radius: 8px;
 
-&__description {
-    position: absolute;
-    width: 308px;
-    height: 75px;
-    left: 46px;
-    top: 397px;
-    bottom: 32px;
-    /* card text */
-    font-family: Messina Sans Trial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 150%;
-    /* or 24px */
-    text-align: center;
-    /* card text */
-    color: rgba(0, 0, 0, 0.46);
+    &__description {
+        position: absolute;
+        width: 308px;
+        height: 75px;
+        left: 46px;
+        top: 397px;
+        bottom: 32px;
+        /* card text */
+        font-family: Messina Sans Trial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        /* or 24px */
+        text-align: center;
+        /* card text */
+        color: rgba(0, 0, 0, 0.46);
     }
 
-&__header {
-    width: 99px;
-    height: 17px;
-    left: 157px;
-    right: 144px;
-    top: 356px;
-    bottom: 131px;
-    /* header card */
-    font-family: Messina Sans Trial;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 96.5%;
-    /* or 17px */
-    /* deep dark */
-    color: #1C1D21;
-    position: absolute;
-}
+    &__header {
+        width: 99px;
+        height: 17px;
+        left: 157px;
+        right: 144px;
+        top: 356px;
+        bottom: 131px;
+        /* header card */
+        font-family: Messina Sans Trial;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 96.5%;
+        /* or 17px */
+        /* deep dark */
+        color: #1c1d21;
+        position: absolute;
+    }
 
-&__img {
-    position: absolute;
-    width: 400px;
-    height: 324px;
-    left: 0px;
-    top: 0px;
-    bottom: 180px;
-    right: 832px;
-    border-radius: 8px 8px 0px 0px;
-}
+    &__img {
+        position: absolute;
+        width: 400px;
+        height: 324px;
+        left: 0px;
+        top: 0px;
+        bottom: 180px;
+        right: 832px;
+        border-radius: 8px 8px 0px 0px;
+    }
 }
 
 .welcome__pic2 {
@@ -73,115 +73,112 @@
     right: 416px;
     top: 0px;
     bottom: 180px;
-    background: #F7F4F4;
+    background: #f7f4f4;
     border-radius: 8px;
 
-&__description {
-    position: absolute;
-    width: 308px;
-    height: 62px;
-    left: 462px;
-    top: 397px;
-    bottom: 45px;
-    /* card text */
-    font-family: Messina Sans Trial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 150%;
-    /* or 24px */
-    text-align: center;
-    /* card text */
-    color: rgba(0, 0, 0, 0.46);
+    &__description {
+        position: absolute;
+        width: 308px;
+        height: 62px;
+        left: 462px;
+        top: 397px;
+        bottom: 45px;
+        /* card text */
+        font-family: Messina Sans Trial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        /* or 24px */
+        text-align: center;
+        /* card text */
+        color: rgba(0, 0, 0, 0.46);
     }
 
-&__header {
-    position: absolute;
-    width: 99px;
-    height: 17px;
-    left: 566px;
-    right: 151px;
-    top: 356px;
-    bottom: 131px;
-    /* header card */
-    font-family: Messina Sans Trial;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 96.5%;
-    /* or 17px */
-    /* deep dark */
-    color: #1C1D21;
-}
+    &__header {
+        position: absolute;
+        width: 99px;
+        height: 17px;
+        left: 566px;
+        right: 151px;
+        top: 356px;
+        bottom: 131px;
+        /* header card */
+        font-family: Messina Sans Trial;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 96.5%;
+        /* or 17px */
+        /* deep dark */
+        color: #1c1d21;
+    }
 
-&__img {
-    position: absolute;
-    width: 400px;
-    height: 324px;
-    left: 416px;
-    top: 0px;
-    right: 832px;
-    border-radius: 8px 8px 0px 0px;
+    &__img {
+        position: absolute;
+        width: 400px;
+        height: 324px;
+        left: 416px;
+        top: 0px;
+        right: 832px;
+        border-radius: 8px 8px 0px 0px;
+    }
 }
-}
-
 
 .welcome__pic3 {
     width: 400px;
     height: 504px;
     left: 832px;
-    background: #F7F4F4;
+    background: #f7f4f4;
     border-radius: 8px;
 
-&__description {
-    position: absolute;
-    width: 308px;
-    height: 56px;
-    left: 873px;
-    right: 51px;
-    bottom: 51px;
-    top: 397px;
-    /* card text */
-    font-family: Messina Sans Trial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 150%;
-    /* or 24px */
-    text-align: center;
-    /* card text */
-    color: rgba(0, 0, 0, 0.46);
-}
+    &__description {
+        position: absolute;
+        width: 308px;
+        height: 56px;
+        left: 873px;
+        right: 51px;
+        bottom: 51px;
+        top: 397px;
+        /* card text */
+        font-family: Messina Sans Trial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        /* or 24px */
+        text-align: center;
+        /* card text */
+        color: rgba(0, 0, 0, 0.46);
+    }
 
-&__header {
-    position: absolute;
-    width: 130px;
-    height: 17px;
-    left: 968px;
-    right: 134px;
-    top: 356px;
-    bottom: 131px;
-    /* header card */
-    font-family: Messina Sans Trial;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 96.5%;
-    /* or 17px */
-    /* deep dark */
-    color: #1C1D21;
-}
+    &__header {
+        position: absolute;
+        width: 130px;
+        height: 17px;
+        left: 968px;
+        right: 134px;
+        top: 356px;
+        bottom: 131px;
+        /* header card */
+        font-family: Messina Sans Trial;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 96.5%;
+        /* or 17px */
+        /* deep dark */
+        color: #1c1d21;
+    }
 
-&__img {
-    position: absolute;
-    width: 400px;
-    height: 324px;
-    left: 832px;
-    bottom: 180px;
-    top: 0px;
-    right: 0px;
-    border-radius: 8px 8px 0px 0px;
+    &__img {
+        position: absolute;
+        width: 400px;
+        height: 324px;
+        left: 832px;
+        bottom: 180px;
+        top: 0px;
+        right: 0px;
+        border-radius: 8px 8px 0px 0px;
+    }
 }
-}
-
-
