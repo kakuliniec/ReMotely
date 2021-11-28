@@ -1,16 +1,17 @@
 .header {
   width: 1230px;
   height: 26px;
-  left: 107px;
-  top: 32px;
   color: #1c1d21;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-items: center;
 
   &__about {
-    position: absolute;
     width: 53px;
     height: 16px;
-    left: 1101px;
-    top: 36px;
     /* nav */
     font-family: Roboto;
     font-style: normal;
@@ -22,11 +23,8 @@
   }
 
   &__book {
-    position: absolute;
     width: 44px;
     height: 16px;
-    left: 928px;
-    top: 38px;
     /* nav */
     font-family: Roboto;
     font-style: normal;
@@ -38,11 +36,8 @@
   }
 
   &__explore {
-    position: absolute;
     width: 65px;
     height: 16px;
-    left: 1004px;
-    top: 36px;
     /* nav */
     font-family: Roboto;
     font-style: normal;
@@ -54,12 +49,8 @@
   }
 
   &__remotely {
-    position: absolute;
     width: 107px;
     height: 26px;
-    left: 107px;
-    top: 32px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: 600;
@@ -70,11 +61,8 @@
   }
 
   &__signin {
-    position: absolute;
     width: 59px;
     height: 16px;
-    left: 1278px;
-    top: 36px;
     /* nav */
     font-family: Roboto;
     font-style: normal;
