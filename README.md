@@ -11,6 +11,6 @@ To run:
 1. Npm install
 2. Npm start
 
-**E n j o y ! ** 😉 
+**E n j o y !** 😉 
 
 ![Figma](assets/img/cover-github.PNG)
