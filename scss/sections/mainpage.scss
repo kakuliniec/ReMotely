@@ -15,6 +15,7 @@ body {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  
 
   &__button {
     position: absolute;
@@ -54,6 +55,8 @@ body {
     line-height: 96.5%;
     /* or 93px */
     color: #1c1d21;
+    margin-left: 100px;
+    margin-top: -320px;
   }
 
   &__picture {
@@ -62,5 +65,5 @@ body {
     border-radius: 8px;
     margin-left: 720px;
     margin-top: 240px;
-  }
+    }
 }
