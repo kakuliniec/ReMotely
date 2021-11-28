@@ -45,19 +45,13 @@ body {
   }
 
   &__description {
-    position: absolute;
     width: 605px;
     height: 267px;
-    left: 123px;
-    top: 453px;
-    bottom: 180px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 96px;
     line-height: 96.5%;
-    margin-top: 0px;
-    margin-bottom: 0px;
     /* or 93px */
     color: #1c1d21;
   }
@@ -65,10 +59,8 @@ body {
   &__picture {
     width: 609px;
     height: 436px;
-    left: 728px;
-    top: 284px;
     border-radius: 8px;
-    margin-left: 40px;
-
+    margin-left: 720px;
+    margin-top: 240px;
   }
 }
