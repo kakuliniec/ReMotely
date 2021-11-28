@@ -1,5 +1,5 @@
 # ReMotely
-# Project based on [Figma](assets/img/cover-github.png)  - just started, so it is **in progress**
+# Project based on ![Figma](assets/img/cover-github.png)  - just started, so it is **in progress**
 
 ## The tools which will be used here:
 
