@@ -3,7 +3,7 @@
   height: 26px;
   color: #1c1d21;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-flow: row;
   margin: 0 auto;
   flex-wrap: wrap;
@@ -20,6 +20,7 @@
     line-height: 89.5%;
     /* or 16px */
     color: #1c1d21;
+    margin: 16px;
   }
 
   &__book {
@@ -33,6 +34,8 @@
     line-height: 89.5%;
     /* or 16px */
     color: #1c1d21;
+    margin: 16px;
+
   }
 
   &__explore {
@@ -46,6 +49,8 @@
     line-height: 89.5%;
     /* or 16px */
     color: #1c1d21;
+    margin: 16px;
+
   }
 
   &__remotely {
@@ -58,6 +63,7 @@
     line-height: 109.5%;
     /* or 26px */
     color: #1c1d21;
+    margin-right: auto;
   }
 
   &__signin {
@@ -71,5 +77,6 @@
     line-height: 89.5%;
     /* or 16px */
     color: #1c1d21;
+    margin-left: 140px;
   }
 }
