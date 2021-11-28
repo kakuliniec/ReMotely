@@ -1,12 +1,12 @@
 .welcome {
-    position: absolute;
     width: 1232px;
     height: 504px;
-    left: 104px;
-    top: 1162px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+ }
 
 .welcome__pic1 {
     width: 400px;
@@ -182,3 +182,4 @@
         border-radius: 8px 8px 0px 0px;
     }
 }
+
