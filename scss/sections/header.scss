@@ -8,7 +8,7 @@
   align-items: center;
   font-style: normal;
   font-weight: 600;
-
+  white-space: nowrap;
 
   &__about {
     /* nav */
@@ -16,6 +16,8 @@
     line-height: 89.5%;
     /* or 16px */
     color: #1c1d21;
+    margin-left: 12.5%;
+
   }
 
   &__book {
@@ -24,8 +26,7 @@
     line-height: 89.5%;
     /* or 16px */
     color: #1c1d21;
-    margin-right: -67.5%;
-
+    margin-left: 230%;
   }
 
   &__explore {
@@ -34,6 +35,8 @@
     line-height: 89.5%;
     /* or 16px */
     color: #1c1d21;
+    margin-left: 12.5%;
+
   }
 
   &__remotely {
@@ -41,7 +44,7 @@
     font-size: 1rem;
     /* or 26px */
     color: #1c1d21;
-    margin-left: -70%;
+    margin-left: -150%;
 
   }
 
@@ -51,6 +54,6 @@
     line-height: 89.5%;
     /* or 16px */
     color: #1c1d21;
-    margin-left: 20%;  
-  }
+    margin-left: 40%;
+    }
 }
