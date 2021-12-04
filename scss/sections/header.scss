@@ -12,7 +12,7 @@
 
   &__about {
     /* nav */
-    font-size: 18px;
+    font-size: 0.75rem;
     line-height: 89.5%;
     /* or 16px */
     color: #1c1d21;
@@ -20,34 +20,37 @@
 
   &__book {
     /* nav */
-    font-size: 18px;
+    font-size: 0.75rem;
     line-height: 89.5%;
     /* or 16px */
     color: #1c1d21;
+    margin-right: -67.5%;
 
   }
 
   &__explore {
     /* nav */
-    font-size: 18px;
+    font-size: 0.75rem;
     line-height: 89.5%;
     /* or 16px */
     color: #1c1d21;
-
   }
 
   &__remotely {
-    font-size: 24px;
     line-height: 109.5%;
+    font-size: 1rem;
     /* or 26px */
     color: #1c1d21;
+    margin-left: -70%;
+
   }
 
   &__signin {
     /* nav */
-    font-size: 18px;
+    font-size: 0.75rem;
     line-height: 89.5%;
     /* or 16px */
     color: #1c1d21;
+    margin-left: 20%;  
   }
 }
