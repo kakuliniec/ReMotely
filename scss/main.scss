@@ -8,11 +8,17 @@
 
 body {
     position: relative;
-    width: 1440px;
-    height: 3792px;
+    max-width: 1440px;
+    max-height: 3792px;
     background: #f1f1f1;
     font-family: 'Roboto', sans-serif;
 }
 
 html {
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }

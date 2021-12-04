@@ -1,20 +1,17 @@
 .header {
-  max-width: 1440px;
+  max-width: 1230px;
   color: #1c1d21;
   display: flex;
   justify-content: space-between;
   flex-flow: row;
   margin: 0 auto;
-  flex-wrap: wrap;
   align-items: center;
+  font-style: normal;
+  font-weight: 600;
+
 
   &__about {
-    display: block;
-    width: 53px;
     /* nav */
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 600;
     font-size: 18px;
     line-height: 89.5%;
     /* or 16px */
@@ -22,11 +19,7 @@
   }
 
   &__book {
-    width: 44px;
     /* nav */
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 600;
     font-size: 18px;
     line-height: 89.5%;
     /* or 16px */
@@ -35,11 +28,7 @@
   }
 
   &__explore {
-    width: 65px;
     /* nav */
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 600;
     font-size: 18px;
     line-height: 89.5%;
     /* or 16px */
@@ -48,10 +37,6 @@
   }
 
   &__remotely {
-    width: 107px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 600;
     font-size: 24px;
     line-height: 109.5%;
     /* or 26px */
@@ -59,11 +44,7 @@
   }
 
   &__signin {
-    width: 59px;
     /* nav */
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 600;
     font-size: 18px;
     line-height: 89.5%;
     /* or 16px */
