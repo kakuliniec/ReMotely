@@ -1,6 +1,5 @@
 .header {
-  width: 1230px;
-  height: 26px;
+  max-width: 1440px;
   color: #1c1d21;
   display: flex;
   justify-content: space-between;
@@ -10,8 +9,8 @@
   align-items: center;
 
   &__about {
+    display: block;
     width: 53px;
-    height: 16px;
     /* nav */
     font-family: Roboto;
     font-style: normal;
@@ -20,12 +19,10 @@
     line-height: 89.5%;
     /* or 16px */
     color: #1c1d21;
-    margin: 16px;
   }
 
   &__book {
     width: 44px;
-    height: 16px;
     /* nav */
     font-family: Roboto;
     font-style: normal;
@@ -34,13 +31,11 @@
     line-height: 89.5%;
     /* or 16px */
     color: #1c1d21;
-    margin: 16px;
 
   }
 
   &__explore {
     width: 65px;
-    height: 16px;
     /* nav */
     font-family: Roboto;
     font-style: normal;
@@ -49,13 +44,11 @@
     line-height: 89.5%;
     /* or 16px */
     color: #1c1d21;
-    margin: 16px;
 
   }
 
   &__remotely {
     width: 107px;
-    height: 26px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 600;
@@ -63,12 +56,10 @@
     line-height: 109.5%;
     /* or 26px */
     color: #1c1d21;
-    margin-right: auto;
   }
 
   &__signin {
     width: 59px;
-    height: 16px;
     /* nav */
     font-family: Roboto;
     font-style: normal;
@@ -77,6 +68,5 @@
     line-height: 89.5%;
     /* or 16px */
     color: #1c1d21;
-    margin-left: 140px;
   }
 }
