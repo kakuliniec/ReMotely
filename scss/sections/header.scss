@@ -1,21 +1,20 @@
 .header {
-  max-width: 1230px;
   color: #1c1d21;
   display: flex;
-  justify-content: space-between;
   flex-flow: row;
   align-items: center;
   font-style: normal;
   font-weight: 600;
   white-space: nowrap;
-  list-style:none;
+  list-style: none;
+  width: 100%;
 
   &__about {
     /* nav */
     font-size: 0.75rem;
     line-height: 89.5%;
     /* or 16px */
-
+    margin-left: auto;
   }
 
   &__book {
@@ -23,7 +22,7 @@
     font-size: 0.75rem;
     line-height: 89.5%;
     /* or 16px */
-
+    margin-left: auto;
   }
 
   &__explore {
@@ -31,14 +30,15 @@
     font-size: 0.75rem;
     line-height: 89.5%;
     /* or 16px */
-
+    margin-left: auto;
   }
 
   &__remotely {
     line-height: 109.5%;
     font-size: 1rem;
     /* or 26px */
-
+    margin: auto;
+    width: 60%;
   }
 
   &__signin {
@@ -46,22 +46,23 @@
     font-size: 0.75rem;
     line-height: 89.5%;
     /* or 16px */
-      }
+    margin-left: auto;
+  }
 }
 
 a:link {
-  text-decoration:none;
+  text-decoration: none;
   color: #1c1d21;
-  }
-  a:visited {
-  text-decoration:none;
+}
+a:visited {
+  text-decoration: none;
   color: #1c1d21;
-  }
-  a:active {
-  text-decoration:none;
+}
+a:active {
+  text-decoration: none;
   color: #1c1d21;
-  }
-  a:hover {
-  text-decoration:none;
+}
+a:hover {
+  text-decoration: none;
   color: #1c1d21;
-  }
+}
