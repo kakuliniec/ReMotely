@@ -4,19 +4,18 @@
   display: flex;
   justify-content: space-between;
   flex-flow: row;
-  margin: 0 auto;
   align-items: center;
   font-style: normal;
   font-weight: 600;
   white-space: nowrap;
+  list-style:none;
 
   &__about {
     /* nav */
     font-size: 0.75rem;
     line-height: 89.5%;
     /* or 16px */
-    color: #1c1d21;
-    margin-left: 12.5%;
+
   }
 
   &__book {
@@ -24,8 +23,7 @@
     font-size: 0.75rem;
     line-height: 89.5%;
     /* or 16px */
-    color: #1c1d21;
-    margin-left: 230%;
+
   }
 
   &__explore {
@@ -33,16 +31,13 @@
     font-size: 0.75rem;
     line-height: 89.5%;
     /* or 16px */
-    color: #1c1d21;
-    margin-left: 12.5%;
+
   }
 
   &__remotely {
     line-height: 109.5%;
     font-size: 1rem;
     /* or 26px */
-    color: #1c1d21;
-    margin-left: -150%;
 
   }
 
@@ -51,7 +46,22 @@
     font-size: 0.75rem;
     line-height: 89.5%;
     /* or 16px */
-    color: #1c1d21;
-    margin-left: 40%;
-    }
+      }
 }
+
+a:link {
+  text-decoration:none;
+  color: #1c1d21;
+  }
+  a:visited {
+  text-decoration:none;
+  color: #1c1d21;
+  }
+  a:active {
+  text-decoration:none;
+  color: #1c1d21;
+  }
+  a:hover {
+  text-decoration:none;
+  color: #1c1d21;
+  }
