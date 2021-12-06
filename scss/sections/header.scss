@@ -7,6 +7,7 @@
   font-weight: 600;
   white-space: nowrap;
   list-style: none;
+  padding: inherit;
 
   &__about {
     /* nav */
@@ -36,8 +37,8 @@
     line-height: 109.5%;
     font-size: 1rem;
     /* or 26px */
-    margin: auto;
-    width: 60%;
+    margin: 0 auto;
+    width: 50%;
   }
 
   &__signin {
@@ -45,7 +46,7 @@
     font-size: 0.75rem;
     line-height: 89.5%;
     /* or 16px */
-    margin-left: auto;
+    margin-left: 10%;
   }
 }
 
