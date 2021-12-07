@@ -70,9 +70,10 @@ a:hover {
   }
 
   &__list {
+    display: flex;
+    flex-flow: row;
     list-style: none;
     list-style-type: none;
-    display: inline-block;
     margin: 0 auto;
     padding: 0;
   }
