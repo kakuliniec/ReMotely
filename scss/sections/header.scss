@@ -1,14 +1,24 @@
-.header {
-  color: #1c1d21;
+.container {
   display: flex;
   flex-flow: row;
+  color: #1c1d21;
   align-items: center;
   font-style: normal;
   font-weight: 600;
-  white-space: nowrap;
-  list-style: none;
-  padding: inherit;
 
+&__logo {
+  line-height: 109.5%;
+  font-size: 1rem;
+  /* or 26px */
+}
+}
+
+.header {
+  list-style: none;
+  white-space: nowrap;
+  justify-content: space-between;
+
+  
   &__about {
     /* nav */
     font-size: 0.75rem;
@@ -33,12 +43,8 @@
     margin-left: auto;
   }
 
-  &__remotely {
-    line-height: 109.5%;
-    font-size: 1rem;
-    /* or 26px */
-    margin: 0 auto;
-    width: 50%;
+  &__list {
+
   }
 
   &__signin {
@@ -46,7 +52,8 @@
     font-size: 0.75rem;
     line-height: 89.5%;
     /* or 16px */
-    margin-left: 10%;
+    margin-left: auto;
+
   }
 }
 
