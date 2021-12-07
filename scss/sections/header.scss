@@ -1,68 +1,3 @@
-.container {
-  display: flex;
-  flex-flow: row;
-  color: #1c1d21;
-  align-items: center;
-  font-style: normal;
-  font-weight: 600;
-  justify-content: space-between;
-
-&__logo {
-  line-height: 109.5%;
-  font-size: 1rem;
-  /* or 26px */
-}
-}
-
-.header {
-  white-space: nowrap;
-  justify-content: space-between;
-  
-  &__about {
-    /* nav */
-    font-size: 0.75rem;
-    line-height: 89.5%;
-    /* or 16px */
-    margin-left: auto;
-    padding: 8px;
-  }
-
-  &__book {
-    /* nav */
-    font-size: 0.75rem;
-    line-height: 89.5%;
-    /* or 16px */
-    margin-left: auto;
-    padding: 8px;
-
-  }
-
-  &__explore {
-    /* nav */
-    font-size: 0.75rem;
-    line-height: 89.5%;
-    /* or 16px */
-    margin-left: auto;
-    padding: 8px;
-
-  }
-
-  &__list {
-    list-style: none;
-
-  }
-
-  &__signin {
-    /* nav */
-    font-size: 0.75rem;
-    line-height: 89.5%;
-    /* or 16px */
-    margin-left: auto;
-    padding: 8px;
-
-
-  }
-}
 
 a:link {
   text-decoration: none;
@@ -79,4 +14,83 @@ a:active {
 a:hover {
   text-decoration: none;
   color: #1c1d21;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  color: #1c1d21;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  justify-content: space-between;
+
+&__logo {
+  line-height: 109.5%;
+  font-size: 0.75rem;
+  /* or 26px */
+  margin-left: 5%;
+}
+}
+
+.header {
+  white-space: nowrap;
+  
+  
+  &__about {
+    /* nav */
+    font-size: 0.75rem;
+    line-height: 89.5%;
+    /* or 16px */
+    margin-left: auto;
+    padding: 0.5em;
+    float:left;
+  }
+
+  &__book {
+    /* nav */
+    font-size: 0.75rem;
+    line-height: 89.5%;
+    /* or 16px */
+    margin-left: auto;
+    padding: 0.5em;
+    float:left;
+
+  }
+
+  &__explore {
+    /* nav */
+    font-size: 0.75rem;
+    line-height: 89.5%;
+    /* or 16px */
+    margin-left: auto;
+    padding: 0.5em;
+    float:left;
+
+  }
+
+  &__list {
+    list-style: none;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  &__signin {
+    /* nav */
+    font-size: 0.75rem;
+    line-height: 89.5%;
+    /* or 16px */
+    margin-left: 0;
+    padding: 0.5em 0.5em 0.5em 8em;
+    float:left;
+
+
+  }
+}
+
+.navigation {
+  position: relative;
+  left: 32px;
 }
