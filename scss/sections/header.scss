@@ -14,9 +14,7 @@
 }
 
 .header {
-  list-style: none;
-  white-space: nowrap;
-  justify-content: space-between;
+
 
   
   &__about {
@@ -44,6 +42,9 @@
   }
 
   &__list {
+    list-style: none;
+    white-space: nowrap;
+    justify-content: space-between;
 
   }
 
