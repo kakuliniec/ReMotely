@@ -1,40 +1,33 @@
 .main {
   max-width: 1440px;
   max-height: 900px;
-
+  font-style: normal;
+  font-weight: normal;
+  color: #1c1d21;
+  display: flexbox;
+  flex-flow: row;
+  flex-wrap: wrap;
 
   &__button {
-    width: 149px;
-    height: 48px;
     border: 2px solid #000000;
     box-sizing: border-box;
     border-radius: 33px;
-    margin-left: -620px;
   }
 
   &__button_text {
-    width: 85px;
-    height: 26px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
+    width: 3.5rem;
+    height: 1rem;
     line-height: 109.5%;
     /* or 26px */
-    color: #1c1d21;
     margin: 0 auto;
   }
 
   &__description {
     width: 605px;
     height: 267px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 96px;
+    font-size: 4rem;
     line-height: 96.5%;
     /* or 93px */
-    color: #1c1d21;
     margin-left: 100px;
     margin-top: -320px;
   }
