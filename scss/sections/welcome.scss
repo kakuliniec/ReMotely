@@ -1,4 +1,8 @@
 .offer {
+    display: flex;
+    flex-flow: column;
+
+    &__description {
     width: 50.5rem;
     font-family: Roboto;
     font-style: normal;
@@ -12,6 +16,8 @@
     margin-left: 4.4rem;
     margin-top: 4.4rem;   
 } 
+}
+
 
 .welcome {
     width: 1232px;
