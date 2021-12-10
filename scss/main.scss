@@ -8,10 +8,13 @@
 
 body {
   position: relative;
-  max-width: 1440px;
-  max-height: 3792px;
+  width: 1440px;
+  height: 3792px;
   background: #f1f1f1;
   font-family: "Roboto", sans-serif;
+  @media (max-width: $mobile) {
+    border: none;
+  }  
 }
 
 html {

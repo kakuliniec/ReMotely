@@ -1,4 +1,3 @@
-
 a:link {
   text-decoration: none;
   color: #1c1d21;
@@ -17,27 +16,26 @@ a:hover {
 }
 
 .container {
+  max-width: 1280px;
+  font-style: normal;
+  font-weight: 600;
   display: flex;
   flex-flow: row;
   color: #1c1d21;
   align-items: center;
-  font-style: normal;
-  font-weight: 600;
   justify-content: space-between;
-  max-width: 1280px;
-  
-&__logo {
-  line-height: 109.5%;
-  font-size: 0.75rem;
-  /* or 26px */
-  margin-left: 2rem;
-}
+
+  &__logo {
+    line-height: 109.5%;
+    font-size: 0.75rem;
+    /* or 26px */
+    margin-left: 2rem;
+  }
 }
 
 .header {
   white-space: nowrap;
-  
-  
+
   &__about {
     /* nav */
     font-size: 0.75rem;
@@ -45,7 +43,7 @@ a:hover {
     /* or 16px */
     margin-left: auto;
     padding: 0.5em;
-    float:left;
+    float: left;
   }
 
   &__book {
@@ -55,8 +53,7 @@ a:hover {
     /* or 16px */
     margin-left: auto;
     padding: 0.5em;
-    float:left;
-
+    float: left;
   }
 
   &__explore {
@@ -66,8 +63,7 @@ a:hover {
     /* or 16px */
     margin-left: auto;
     padding: 0.5em;
-    float:left;
-
+    float: left;
   }
 
   &__list {
@@ -86,9 +82,7 @@ a:hover {
     /* or 16px */
     margin-left: 0;
     padding: 0.5em 0.5em 0.5em 8em;
-    float:left;
-
-
+    float: left;
   }
 }
 
