@@ -36,15 +36,25 @@
   }
 
   &__picture {
-    max-width: 609px;
-    max-height: 436px;
+    width: 609px;
+    height: 436px;
     border-radius: 8px;
     margin-left: 28rem;
     margin-top: 10rem;
     overflow: hidden;
+    @media (max-width: $mobile) {
+      width: 406px;
+      height: 291px;
+      }
   }
 }
 
 .screen1 {
   background: #D9DCD7;
+  width: 1440px;
+  height: 900px;
+  @media (max-width: $mobile) {
+    padding: 16px;
+}
+
 }

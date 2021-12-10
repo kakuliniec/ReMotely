@@ -16,7 +16,6 @@ a:hover {
 }
 
 .container {
-  max-width: 1280px;
   font-style: normal;
   font-weight: 600;
   display: flex;
@@ -88,4 +87,8 @@ a:hover {
 
 .navigation {
   position: relative;
+  max-width: 1280px;
+  @media (max-width: $mobile) {
+    margin: 16px 0px 8px;
+}
 }
