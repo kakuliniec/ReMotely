@@ -1,13 +1,9 @@
 .hero {
-  max-width: 1440px;
   height: 34.67rem;
   font-style: normal;
   font-weight: normal;
   color: #1c1d21;
-  display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
-  align-items: center;
+  display: block;
   background: #d9dcd7;
   padding: 8px;
 
@@ -29,8 +25,22 @@
     margin: 0 auto;
   }
 
+  &__content {
+    display: flex;
+    flex-direction: row;
+    align-items: self-end;
+  }
+
   &__left {
-    width: 25.21rem;
+    max-width: 609px;
+    border-radius: 8px;
+    overflow: hidden;
+    @media (max-width: $mobile) {
+      margin: 0 auto;
+    }
+  }
+
+  &__right {
     font-size: 4rem;
     font-weight: normal;
     line-height: 96.5%;
@@ -41,16 +51,6 @@
       font-size: 2.5rem;
       margin-left: 1.4rem;
       margin-top: -2.7rem;
-    }
-  }
-
-  &__right {
-    max-width: 609px;
-    height: 18.17rem;
-    border-radius: 8px;
-    overflow: hidden;
-    @media (max-width: $mobile) {
-      margin: 0 auto;
     }
   }
 }
