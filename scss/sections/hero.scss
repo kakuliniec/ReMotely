@@ -32,7 +32,7 @@
     margin: 0 auto;
   }
 
-  &__description {
+  &__left {
     width: 25.21rem;
     font-size: 4rem;
     font-weight: normal;
@@ -50,8 +50,8 @@
     
   }
 
-  &__picture {
-    max-width:100%;
+  &__right {
+    max-width: 609px;
     height: 18.17rem;
     border-radius: 8px;
     margin-left: 28rem;

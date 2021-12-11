@@ -52,7 +52,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 5% 0 auto;
+  margin: 0 103px 0 auto;
   @media (max-width: $mobile) {
     margin: 0;
 }
@@ -93,7 +93,6 @@ a:hover {
     flex-flow: row;
     list-style: none;
     padding: 0;
-    margin-left: -10%;
   }
 
   &__signin {
