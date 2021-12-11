@@ -8,20 +8,17 @@
   flex-flow: row;
   flex-wrap: wrap;
   align-items: center;
-  background: #D9DCD7;
+  background: #d9dcd7;
   padding: 8px;
-
 
   &__button {
     border: 2px solid #000000;
     box-sizing: border-box;
     border-radius: 33px;
-    margin-left: -22rem;
-    margin-bottom: auto;
     @media (max-width: $mobile) {
       margin-left: 6rem;
       margin-bottom: 4.5rem;
-      }
+    }
   }
 
   &__button_text {
@@ -38,27 +35,22 @@
     font-weight: normal;
     line-height: 96.5%;
     /* or 93px */
-    margin-left: 4.4rem;
-    margin-top: -14.7rem;
     overflow: hidden;
 
     @media (max-width: $mobile) {
       font-size: 2.5rem;
       margin-left: 1.4rem;
       margin-top: -2.7rem;
-      }
-    
+    }
   }
 
   &__right {
     max-width: 609px;
     height: 18.17rem;
     border-radius: 8px;
-    margin-left: 28rem;
-    margin-top: 9rem;
     overflow: hidden;
     @media (max-width: $mobile) {
       margin: 0 auto;
-      }
+    }
   }
 }

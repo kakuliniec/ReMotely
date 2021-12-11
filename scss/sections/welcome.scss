@@ -5,22 +5,19 @@
     padding: 8px;
 
     &__description {
-    font-weight: normal;
-    font-size: 1.5rem;
-    line-height: 119.5%;
-    /* or 43px */
-    text-align: center;
-    /* deep dark */
-    color: #1c1d21;
-    margin: 4.4rem auto;
-    @media (max-width: $mobile) {
-        margin: 2.5rem;
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 119.5%;
+        /* or 43px */
+        text-align: center;
+        /* deep dark */
+        color: #1c1d21;
+        margin: 4.4rem auto;
+        @media (max-width: $mobile) {
+            margin: 2.5rem;
         }
-
-
-} 
+    }
 }
-
 
 .welcome {
     display: grid;
@@ -34,7 +31,7 @@
         grid-template-columns: 1fr;
         padding: 5rem 0 0;
     }
- }
+}
 
 .welcome__pic1 {
     background: #f7f4f4;
@@ -49,7 +46,7 @@
         /* card text */
         color: rgba(0, 0, 0, 0.46);
         margin: 0 auto;
-        }
+    }
 
     &__header {
         /* header card */
@@ -83,7 +80,7 @@
         /* card text */
         color: rgba(0, 0, 0, 0.46);
         margin: 0 auto;
-        }
+    }
 
     &__header {
         /* header card */

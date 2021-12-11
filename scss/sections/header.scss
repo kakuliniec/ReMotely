@@ -26,25 +26,23 @@ a:hover {
   margin: 0 auto;
   padding: 8px;
 
-
   &__logo {
     line-height: 109.5%;
-    font-size: 0.75rem;
+    font-size: 0.5rem;
     /* or 26px */
     margin-left: 4.4rem;
     @media (max-width: $mobile) {
       margin-left: 0;
-  }
+    }
   }
 }
-
 
 .header {
   position: relative;
-  background: #D9DCD7;
+  background: #d9dcd7;
   @media (max-width: $mobile) {
     padding: 16px;
-}
+  }
 }
 
 .navigation {
@@ -55,8 +53,7 @@ a:hover {
   margin: 0 103px 0 auto;
   @media (max-width: $mobile) {
     margin: 0;
-}
-
+  }
 
   &__about {
     /* nav */
@@ -103,5 +100,3 @@ a:hover {
     padding: 0.5em 0.5em 0.5em 8em;
   }
 }
-
-
