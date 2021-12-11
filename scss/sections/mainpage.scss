@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   align-items: center;
   background: #D9DCD7;
+  padding: 8px;
 
 
   &__button {
@@ -32,6 +33,7 @@
   }
 
   &__description {
+    width: 25.21rem;
     font-size: 4rem;
     font-weight: normal;
     line-height: 96.5%;
