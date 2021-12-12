@@ -25,12 +25,12 @@ a:hover {
   justify-content: space-between;
   padding: 0px 105px 84px 103px;
   max-width: 1440px;
+  flex-wrap: wrap;
 
   &__logo {
     line-height: 109.5%;
     font-size: 12px;
     /* or 26px */
-    margin-left: 107px;
     @media (max-width: $mobile) {
       margin-left: 0;
     }
@@ -50,7 +50,6 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 103px 0 auto;
   @media (max-width: $mobile) {
     margin: 0;
   }
