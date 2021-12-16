@@ -2,8 +2,7 @@
     font-style: normal;
     font-weight: normal;
     background: #ECE0E0;
-    max-height: 813px;
-    max-width: 1440px;
+
 
     &__button {
 
@@ -17,9 +16,7 @@
     &__content {
         display: flex;
         flex-direction: row;
-        max-height: 813px;
-        align-items: flex-end;
-        max-height: 813px;
+
     }
 
     &__description {
@@ -27,8 +24,9 @@
         margin-bottom: 297px;
         font-weight: normal;
         font-size: 18px;
-        line-height: 150%;
         color: rgba(0, 0, 0, 0.46);
+        line-height: 150%;
+        overflow: hidden;
     }
 
     &__image {
@@ -38,14 +36,13 @@
     }
 
     &__header {
-        max-width: 100%;
-        font-weight: 400;
-        font-style: normal;
+        color: #1C1D21;
         font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
         line-height: 150%;
         overflow: hidden;
-        align-items: center;
-        color: #1C1D21;
+        max-width: 100%;
         margin-top: 296px;
     }
 
@@ -60,9 +57,4 @@
         max-width: 807px;
     }
 
-&__text {
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-}
 }
