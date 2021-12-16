@@ -31,7 +31,6 @@
 
     &__description {
         max-width: 100%;
-        margin-bottom: 58px;
         font-weight: normal;
         font-size: 18px;
         color: rgba(0, 0, 0, 0.46);
@@ -54,7 +53,6 @@
         line-height: 150%;
         overflow: hidden;
         max-width: 100%;
-        margin-top: 296px;
     }
 
     &__left {
@@ -68,5 +66,7 @@
     &__text {
         padding-left: 51px;
         padding-right: 164px;
+        padding-top: 296px;
+        padding-bottom: 189px;
     }
     }
