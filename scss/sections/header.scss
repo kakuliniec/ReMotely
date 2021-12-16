@@ -23,9 +23,9 @@ a:hover {
   color: #1c1d21;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 105px 84px 103px;
   max-width: 1440px;
   flex-wrap: wrap;
+  margin: 0 auto;
 
   &__logo {
     line-height: 109.5%;
@@ -34,6 +34,11 @@ a:hover {
     @media (max-width: $mobile) {
       margin-left: 0;
     }
+  }
+
+  &__narrow {
+    padding: 0px 105px 84px 103px;
+
   }
 }
 
