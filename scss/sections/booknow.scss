@@ -19,6 +19,7 @@
         flex-direction: row;
         max-height: 813px;
         align-items: flex-end;
+        max-height: 813px;
     }
 
     &__description {
@@ -50,7 +51,6 @@
 
     &__left {
         max-width: 712px;
-        height: 811px;
         margin-left: 164px;
         display: flex;
 
