@@ -37,6 +37,7 @@
         color: rgba(0, 0, 0, 0.46);
         line-height: 150%;
         overflow: hidden;
+ 
     }
 
     &__image {
@@ -62,5 +63,10 @@
 
     &__right {
         max-width: 400px;
+    }
+
+    &__text {
+        padding-left: 51px;
+        padding-right: 164px;
     }
     }
