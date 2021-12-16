@@ -5,9 +5,7 @@
 
 
     &__button {
-        max-width: 175px;
-        height: 50px;
-        margin-top: 58px;
+
     }
 
     &__button_text {
@@ -19,12 +17,15 @@
         background: #ECE0E0;
         width: 100%;
     height: 100%;
+    max-width: 175px;
+    height: 50px;
+    margin-top: 58px;
     }
 
 
     &__content {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
 
     }
 
@@ -39,7 +40,8 @@
     }
 
     &__image {
-        max-height: 100%;
+        display: block;
+        max-width: 100%;
 
     }
 
@@ -55,9 +57,7 @@
     }
 
     &__left {
-        max-width: 712px;
-        max-height: 811px;
-
+ 
     }
 
     &__right {
