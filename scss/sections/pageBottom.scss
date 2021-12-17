@@ -6,15 +6,44 @@
 
     &__bottom {
         display: flex;
-    flex-flow: row;
-    justify-content: space-between;
+        flex-flow: row;
+        justify-content: space-between;
     }
 
-    &__button {}
+    &__button--active {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 127%;
+        border: none;
+        color: #000000;
+
+    }
+
+    &__button--inactive {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 127%;
+        border: none;
+        color: rgba(0, 0, 0, 0.46);
+
+
+    }
+
 
     &__buttons {}
 
-    &__caption {}
+    &__caption {
+        margin: 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150%;
+        /* or 27px */
+        /* deep dark */
+        color: #1C1D21;
+    }
 
     &__content {
         display: flex;
