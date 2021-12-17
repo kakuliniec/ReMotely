@@ -4,6 +4,11 @@
     color: #1c1d21;
     background: #F1F1F1;
 
+    &__bottom {
+        display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    }
 
     &__button {}
 
@@ -26,6 +31,8 @@
         line-height: 127%;
         overflow: hidden;
         margin: 0 auto;
+        padding-bottom: 439px;
+        padding-right: 234px;
     }
 
 
