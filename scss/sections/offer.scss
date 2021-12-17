@@ -53,10 +53,11 @@
         max-width: 400px;
     }
 
-&__pic {
-    height: 324px;
-    max-width: 400px;
-}
+    &__pic {
+        height: 324px;
+        max-width: 400px;
+    }
+
     &__table {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

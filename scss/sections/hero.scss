@@ -6,6 +6,7 @@
 
   &__button {
     margin-top: 48px;
+
     @media (max-width: $mobile) {
       margin-left: 6rem;
       margin-bottom: 4.5rem;
@@ -25,7 +26,7 @@
   &__content {
     display: flex;
     flex-direction: row;
-    align-items:flex-end;
+    align-items: flex-end;
     margin-top: 226px;
   }
 
@@ -48,8 +49,8 @@
 
   &__left {
     max-width: 609px;
-    flex-basis: 49%;
     margin-top: auto;
+
     @media (max-width: $mobile) {
       margin: 0 auto;
     }
@@ -57,7 +58,7 @@
 
   &__right {
     max-width: 605px;
-    flex-basis: 51%;
+
     @media (max-width: $mobile) {
       font-size: 2.5rem;
       margin-left: 1.4rem;

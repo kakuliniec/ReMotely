@@ -12,6 +12,7 @@ body {
   position: relative;
   background: #f1f1f1;
   font-family: "Roboto", sans-serif;
+
   @media (max-width: $mobile) {
     border: none;
   }
@@ -20,6 +21,7 @@ body {
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+
   @media (max-width: $mobile) {
     font-size: 11px;
   }

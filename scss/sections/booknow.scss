@@ -17,7 +17,8 @@
 
     &__content {
         display: grid;
-    grid-template-columns: 51% 49%;;
+        grid-template-columns: 51% 49%;
+        ;
 
     }
 
@@ -29,7 +30,7 @@
         line-height: 150%;
         overflow: hidden;
         padding-bottom: 32px;
- 
+
     }
 
     &__image {
@@ -48,15 +49,11 @@
         max-width: 100%;
     }
 
-    &__left {
- 
-    }
+    &__left {}
 
-    &__right {
-
-    }
+    &__right {}
 
     &__text {
         padding: 250px 164px 189px 164px;
     }
-    }
+}
