@@ -47,26 +47,92 @@
 }
 
 .footerNav {
-    max-width: 479px;
-    max-height: 156px;
-    
-    &__about {}
+    display: flex;
+    flex-flow: column wrap;
 
-    &__blog {}
+    &__about {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 150%;
+        color: #1C1D21;
+    }
 
-    &__contact {}
+    &__blog {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 150%;
+        color: #1C1D21;
+    }
 
-    &__facebook {}
+    &__contact {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 150%;
+        color: #1C1D21;
+    }
 
-    &__faq {}
+    &__facebook {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 150%;
+        color: #1C1D21;
+    }
 
-    &__help {}
+    &__faq {    
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 150%;
+        color: #1C1D21;}
 
-    &__instagram {}
+    &__help {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 150%;
+        color: #1C1D21;
+        padding-right: 72px;
+    }
 
-    &__list {}
+    &__instagram {    
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 150%;
+        color: #1C1D21;}
 
-    &__reviews {}
+    &__list {
+        display: flex;
+    list-style: none;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+    width: 479px;
+    height: 156px;
+    align-content: space-around;
+    padding-bottom: 24px;
 
-    &__twitter {}
+    }
+
+    &__reviews {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 150%;
+        color: #1C1D21;
+        padding-right: 72px;
+    }
+
+    &__twitter {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 150%;
+        color: #1C1D21;
+    }
 }
