@@ -10,13 +10,21 @@
 
     &__caption {}
 
-    &__content {}
+    &__content {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
 
     &__header {}
-    
-    &__image {}
 
-    &__left {}
+    &__image {
+        max-width: 100%;
+    }
+
+    &__left {
+        max-width: 504px;
+    }
 
     &__right {}
 
