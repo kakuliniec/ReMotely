@@ -3,29 +3,21 @@
     font-weight: normal;
     background: #ECE0E0;
 
-
     &__button {
-
-    }
-
-    &__button_text {
         line-height: 109.5%;
         font-size: 24px;
         border: 2px solid #000000;
         box-sizing: border-box;
         border-radius: 33px;
         background: #ECE0E0;
-        width: 100%;
-    height: 100%;
-    max-width: 175px;
-    height: 50px;
-    margin-top: 58px;
+        width: 175px;
+        height: 50px;
     }
 
 
     &__content {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 51% 49%;;
 
     }
 
@@ -36,6 +28,7 @@
         color: rgba(0, 0, 0, 0.46);
         line-height: 150%;
         overflow: hidden;
+        padding-bottom: 32px;
  
     }
 
@@ -64,6 +57,6 @@
     }
 
     &__text {
-        padding: 296px 164px 189px 164px;
+        padding: 250px 164px 189px 164px;
     }
     }
