@@ -1,63 +1,69 @@
 .footer {
+    position: relative;
+    background: #F1F1F1;
 
-&__button {
+    &__button {
+        font-size: 24px;
+        line-height: 150%;
+        color: rgba(0, 0, 0, 0.46);
+        border: none;
+        padding: 0;
+    }
 
-}
+    &__form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
-&__enter {
+    &__input {
+        overflow: visible;
+        font-size: 24px;
+        line-height: 100%;
+        color: rgba(0, 0, 0, 0.46);
+        border: none;
+        background: #F1F1F1;
 
-}
+        ::placeholder {
+            color: rgba(0, 0, 0, 0.46);
+        }
+    }
 
-&__input {
+    &__label {}
 
-}
+    &__left {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
 
-&__left {
-    
-}
+    &__line {}
+
+    &__submit {
+        border: none;
+    }
 
 }
 
 .footerNav {
-  
-    
-    &__about {
 
-    }
+    &__about {}
 
-    &__blog {
+    &__blog {}
 
-    }
+    &__contact {}
 
-    &__contact {
+    &__facebook {}
 
-    }
+    &__faq {}
 
-    &__facebook {
+    &__help {}
 
-    }
+    &__instagram {}
 
-    &__faq {
+    &__list {}
 
-    }
+    &__reviews {}
 
-    &__help {
-
-    }
-
-    &__instagram {
-
-    }
-
-    &__list {
-
-    }
-
-    &__reviews {
-
-    }
-
-    &__twitter {
-        
-    }
+    &__twitter {}
 }
