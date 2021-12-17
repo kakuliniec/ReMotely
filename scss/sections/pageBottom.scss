@@ -18,7 +18,16 @@
         margin-top: 126px;
     }
 
-    &__header {}
+    &__header {
+        color: #1C1D21;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 127%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
 
     &__image {
         max-width: 100%;
@@ -28,7 +37,11 @@
         max-width: 504px;
     }
 
-    &__right {}
+    &__right {
+        max-width: 616px;
+        margin-left: 112px;
+
+    }
 
 
 }
