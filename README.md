@@ -12,6 +12,9 @@ It is just for desktop view (1440px or more).
 * ...
 
 To run:
+
+Click above or:
+
 1. Npm install
 2. Npm start
 
