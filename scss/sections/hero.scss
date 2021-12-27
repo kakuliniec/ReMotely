@@ -4,17 +4,17 @@
   color: #1c1d21;
   background: #d9dcd7;
 
+  
+  @media (max-width: $mobile) {
+    padding: 0px;
+}
+
   .container {
     padding: 0px 105px 84px 103px;
   }
 
   &__button {
     margin-top: 48px;
-
-    @media (max-width: $mobile) {
-      margin-left: 6rem;
-      margin-bottom: 4.5rem;
-    }
   }
 
   &__button_text {
@@ -32,6 +32,9 @@
     flex-direction: row;
     align-items: flex-end;
     margin-top: 226px;
+
+    @media (max-width: $mobile) {
+  }
   }
 
   &__description {
@@ -44,6 +47,10 @@
     max-width: 100%;
     align-items: flex-end;
     margin: 0 auto;
+
+    @media (max-width: $mobile) {
+      font-size: 30px;
+  }
   }
 
   &__image {
@@ -64,9 +71,7 @@
     max-width: 605px;
 
     @media (max-width: $mobile) {
-      font-size: 2.5rem;
-      margin-left: 1.4rem;
-      margin-top: -2.7rem;
+
     }
   }
 }
