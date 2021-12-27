@@ -40,15 +40,15 @@ a:hover {
     }
   }
 
-  &--narrow {
-    padding: 0px 105px 84px 103px;
-
-  }
 }
 
 .header {
   position: relative;
   background: #d9dcd7;
+
+  .container {
+    padding: 0px 105px 84px 103px;
+  }
 
   @media (max-width: $mobile) {
     padding: 16px;
@@ -110,3 +110,4 @@ a:hover {
     padding: 0.5em 0.5em 0.5em 8em;
   }
 }
+
