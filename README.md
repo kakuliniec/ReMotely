@@ -1,8 +1,9 @@
-# ReMotely - project based on Figma. It is just started so the status is: in progress ...
+# ReMotely - project based on Figma. It is just for desktop view.
 ## The tools which will be used here:
 
 * Figma
 * Flexbox
+* Grid
 * SASS
 * Visial Studio Code
 * ...
