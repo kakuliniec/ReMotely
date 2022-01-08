@@ -1,0 +1,90 @@
+.offer {
+
+    .container {
+        padding: 0px 105px 84px 103px;
+      }
+
+    &__content {
+        max-width: 1212px;
+        margin-top: 90px;
+        margin-bottom: 86px;
+    }
+
+    &__collumn {
+        background: #f7f4f4;
+        border-radius: 8px;
+        max-width: 400px;
+        max-height: 504px;
+        display: grid;
+    }
+
+    &__description {
+        /* card text */
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        /* or 24px */
+        text-align: center;
+        /* card text */
+        color: rgba(0, 0, 0, 0.46);
+        max-width: 308px;
+        margin: auto;
+    }
+
+    &__header {
+        /* header card */
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 96.5%;
+        /* or 17px */
+        /* deep dark */
+        color: #1c1d21;
+        text-align: center;
+        margin-top: 32px;
+        margin-bottom: 24px;
+
+    }
+
+    &__img {
+        height: 100%;
+        width: 100%;
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    &__inside {
+        max-width: 400px;
+        padding-bottom: 59px;
+    }
+
+    &__pic {
+        height: 324px;
+        max-width: 400px;
+    }
+
+    &__table {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 16px;
+        max-width: 1232px;
+
+        @media (max-width: $mobile) {
+            grid-template-columns: 1fr;
+            padding: 5rem 0 0;
+        }
+    }
+
+    &__text {
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 119.5%;
+        /* or 43px */
+        text-align: center;
+        /* deep dark */
+        color: #1c1d21;
+        max-width: 100%;
+
+        @media (max-width: $mobile) {
+            margin: 2.5rem;
+        }
+    }
+}

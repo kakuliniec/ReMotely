@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/kakuliniec/ReMotely#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
     "parcel": "^2.0.1"
   },
   "dependencies": {

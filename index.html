@@ -1,48 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ReMotely project</title>
   <link rel="stylesheet" href="scss/main.scss" />
 </head>
-<body>
-    <section class="rectangle8">
-    <section class="header">
-        <h1 class="header__remotely">ReMotely</h1>
-        <h1 class="header__book">Book</h1>
-        <h1 class="header__explore">Explore</h1>
-        <h1 class="header__about">About</h1>
-        <h1 class="header__signin">Sign in</h1>
-        </section>
-        <img src="./assets/img/mainpic.jpg" class="rectangle8__mainpic" alt="zdjęcie chatki w górach">​
-    <h2 class="rectangle8__description">Work from a cabin near Helsinki</h2>
 
-    <button class="rectangle8__button">
-        <p class="rectangle8__button_text" alt="przycisk explore">Explore</p>
-    </button>    
-</section>
-<h3 class="offer">We offer a handpicked range of cabins for nature lovers in Europe to live and work from for desired time.
-</h3>
-<section class="welcome2">
-    <div class="welcome2__pic1">
-        <img src="./assets/img/welcome2-1.jpg" class="welcome2__pic1_img" alt="zdjęcie laptopa w lesie">
-        <p class="welcome2__pic1_header">Connection</p>
-        <p class="welcome2__pic1_description">We provide a good internet connection in our remotest cabins .
-        </p>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="container__logo">
+        <h1>ReMotely</h1>
+      </div>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__book"><a href="#">Book</a></li>
+          <li class="navigation__explore"><a href="#">Explore</a></li>
+          <li class="navigation__about"><a href="#">About</a></li>
+          <li class="navigation__signin"><a href="#">Sign in</a></li>
+        </ul>
+      </nav>
     </div>
-    <div class="welcome2__pic2">
-        <img src="./assets/img/welcome2-2.jpg" class="welcome2__pic2_img" alt="zdjęcie ruchliwej drogi na szczytach gór">
-        <p class="welcome2__pic2_header">Accesibility</p>
-        <p class="welcome2__pic2_description">Every cabin is up in the nature but also easy to get to and to the towns around.</p>
+  </header>
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__right">
+          <h2 class="hero__description">Work from a cabin near Helsinki</h2>
+        </div>
+        <div class="hero__left">
+          <img src="./assets/img/main/mainpic.jpg" class="hero__image" alt="zdjęcie chatki w górach" />
+        </div>
+      </div>
+      <div class="hero__button">
+        <button class="hero__button_text" alt="przycisk explore">
+          Explore
+        </button>
+      </div>
     </div>
-    <div class="welcome2__pic3">
-        <img src="./assets/img/welcome2-3.jpg" class="welcome2__pic3_img" alt="zdjęcie pary z psami na szczycie gór">
-        <p class="welcome2__pic3_header"></p>
-        <p class="welcome2__pic3_description"></p>
+  </section>
+  <section class="offer">
+    <div class="container">
+      <div class="offer__content">
+        <h2 class="offer__text">We offer a handpicked range of cabins for nature lovers in Europe to live and
+          work from for
+          desired time.
+        </h2>
+      </div>
+      <div class="offer__table">
+        <div class="offer__collumn">
+          <div class="offer__pic">
+            <img src="./assets/img/welcome2/welcome2-1.jpg" class="offer__img" alt="zdjęcie laptopa w lesie"></div>
+          <div class="offer__inside">
+            <h3 class="offer__header">Connection</h3>
+            <p class="offer__description">We provide a good internet connection in our remotest cabins .
+            </p>
+          </div>
+        </div>
+        <div class="offer__collumn">
+          <div class="offer__pic">
+            <img src="./assets/img/welcome2/welcome2-2.jpg" class="offer__img"
+              alt="zdjęcie ruchliwej drogi na szczytach gór"></div>
+          <div class="offer__inside">
+            <h3 class="offer__header">Accesibility</h3>
+            <p class="offer__description">Every cabin is up in the nature but also easy to get to and to the
+              towns around.</p>
+          </div>
+        </div>
+        <div class="offer__collumn">
+          <div class="offer__pic">
+            <img src="./assets/img/welcome2/welcome2-3.jpg" class="offer__img"
+              alt="zdjęcie pary z psami na szczycie gór"></div>
+          <div class="offer__inside">
+            <h3 class="offer__header">Close to nature
+            </h3>
+            <p class="offer__description">Every cabin means different areas to explore!
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-</section>
+  </section>
+  <section class="booknow">
+    <div class="container">
+      <div class="booknow__content">
+        <div class="booknow__right">
+          <div class="booknow__text">
+            <h2 class="booknow__header">Work from somewhere special</h2>
+            <p class="booknow__description">We gather people who love nature and mountains and help them find perfect
+              spots for a few weeks or even months. If your job is fully remote and you daydream of holidays, then why
+              sit
+              at home? Work as you normally do and later let yourself dive into nature. Break the habit.</p>
+            <button class="booknow__button" alt="przycisk Book now">
+              Book now
+            </button>
+          </div>
+        </div>
+        <div class="booknow__left">
+          <img src="./assets/img/booknow/booknow-pic.jpg" class="booknow__image"
+            alt="zdjęcie nowoczesnego domku na szczycie gór" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="pageBottom">
+    <div class="container">
+      <div class="pageBottom__content">
+        <div class="pageBottom__left">
+          <img src="./assets/img/pageBottom/image.jpg" class="pageBottom__image"
+            alt="zdjęcie dziewczyny w zimowym lesie" />
+        </div>
+        <div class="pageBottom__right">
+          <h2 class="pageBottom__header">+2,000 cabin lovers</h2>
+          <div class="pageBottom__bottom">
+            <p class="pageBottom__caption">Marina Skovic, Visual Artist
+            </p>
+            <div class="pageBottom__buttons">
+              <button class="pageBottom__button--active">1</button>
+              <button class="pageBottom__button--inactive">2</button>
+              <button class="pageBottom__button--inactive">3</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__left">
+        <button class="footer__button">newsletter comming soon</button>
+        <form class="footer__form">
+          <input type="text" placeholder="your e-mail address" class="footer__input">
+          <a href="#">
+            <img src="./assets/icons/footer-submit.svg" class="footer__submit" alt="gray arrow">
+          </a>
+        </form>
+        <img role="img" src="./assets/icons/footer-line.svg" class="footer__line"/>
+      </div>
+      <nav class="footerNav">
+        <ul class="footerNav__list">
+          <li class="footerNav__help"><a href="#">Help center</a></li>
+          <li class="footerNav__faq"><a href="#">FAQ</a></li>
+          <li class="footerNav__blog"><a href="#">Blog</a></li>
+          <li class="footerNav__about"><a href="#">About</a></li>
+          <li class="footerNav__contact"><a href="#">Contact</a></li>
+          <li class="footerNav__reviews"><a href="#">Reviews</a></li>
+          <li class="footerNav__facebook"><a href="#">Facebook</a></li>
+          <li class="footerNav__instagram"><a href="#">Instagram</a></li>
+          <li class="footerNav__twitter"><a href="#">Twitter</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
 
 
 </body>
+
 </html>

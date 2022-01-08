@@ -1,0 +1,114 @@
+a:link {
+  text-decoration: none;
+  color: #1c1d21;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #1c1d21;
+}
+
+a:active {
+  text-decoration: none;
+  color: #1c1d21;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #1c1d21;
+}
+
+.container {
+  font-style: normal;
+  font-weight: 600;
+  display: flex;
+  flex-flow: row;
+  color: #1c1d21;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
+  &__logo {
+    line-height: 109.5%;
+    font-size: 12px;
+
+    /* or 26px */
+    @media (max-width: $mobile) {
+      margin-left: 116px;
+      font-size: 26px;
+    }
+  }
+
+
+}
+
+.header {
+  position: relative;
+  background: #d9dcd7;
+
+  .container {
+    padding: 0px 105px 84px 103px;
+  }
+
+  @media (max-width: $mobile) {
+    padding: 16px;
+  }
+}
+
+.navigation {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: $mobile) {
+  }
+
+  &__about {
+    /* nav */
+    font-size: 18px;
+    line-height: 89.5%;
+    /* or 16px */
+    margin-left: auto;
+    padding: 0.5em;
+    float: left;
+  }
+
+  &__book {
+    /* nav */
+    font-size: 18px;
+    line-height: 89.5%;
+    /* or 16px */
+    margin-left: auto;
+    padding: 0.5em;
+    float: left;
+  }
+
+  &__explore {
+    /* nav */
+    font-size: 18px;
+    line-height: 89.5%;
+    /* or 16px */
+    margin-left: auto;
+    padding: 0.5em;
+    float: left;
+  }
+
+  &__list {
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+    padding: 0;
+  }
+
+  &__signin {
+    /* nav */
+    font-size: 18px;
+    line-height: 89.5%;
+    /* or 16px */
+    padding: 0.5em 0.5em 0.5em 8em;
+  }
+}
+

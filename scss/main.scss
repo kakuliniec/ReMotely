@@ -1,10 +1,35 @@
-@import "_normalize";
-@import "_variables";
+@import "./normalize";
+@import "./variables";
+@import "./scss/sections/booknow.scss";
+@import "./scss/sections/footer.scss";
+@import "./scss/sections/header.scss";
+@import "./scss/sections/hero.scss";
+@import "./scss/sections/offer.scss";
+@import "./scss/sections/pageBottom.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 
 body {
-position: relative;
-width: 1440px;
-height: 3792px;
-background: #F1F1F1;
+  position: relative;
+  background: #f1f1f1;
+  font-family: "Roboto", sans-serif;
 
+  @media (max-width: $mobile) {
+    border: none;
+  }
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  @media (max-width: $mobile) {
+    font-size: 17px;;
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
